@@ -8,7 +8,7 @@ html, body, img, section, ul, li, h1, h2, h3, h4, h5, p, a, canvas {
 
 body {
 	width: auto;
-	background: brown;
+	background: grey;
 }
 .group:after {
 	display: block;
