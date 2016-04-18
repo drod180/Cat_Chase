@@ -18,7 +18,7 @@ body {
 
 .game-canvas {
 	display: block;
-	margin: 0 auto;
+	margin: 10% auto;
 }
 
 .game-instructions-modal {
@@ -35,7 +35,6 @@ body {
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px grey;
   z-index: 99999;
-  opacity: 1;
   -webkit-transition: opacity 400ms ease-in;
   -moz-transition: opacity 400ms ease-in;
   transition: opacity 400ms ease-in;
