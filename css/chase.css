@@ -1,0 +1,116 @@
+html, body, img, section, ul, li, h1, h2, h3, h4, h5, p, a, canvas {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+}
+
+body {
+	width: auto;
+	background: brown;
+}
+.group:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.game-canvas {
+	display: block;
+	margin: 0 auto;
+}
+
+.game-instructions-modal {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+	margin: 10% auto;
+	width: 500px;
+	height: 400px;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px grey;
+  z-index: 99999;
+  opacity: 1;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+	background: white;
+}
+
+.game-instructions-modal > h2 {
+	font-size: 36px;
+	font-weight: bolder;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.game-instructions-modal img {
+	float: left;
+}
+
+.game-instructions-modal a:target {
+	cursor: pointer;
+}
+
+.game-instructions h3 {
+	font-size:  24px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.game-instructions p {
+	float: left;
+	line-height: 40px;
+}
+
+.bottom-icons > img{
+	margin: 0;
+}
+
+.bottom-icons {
+	float: left;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: bold;
+	margin: 0 75px;
+}
+
+.start-game {
+	background: green;
+  color: white;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: bold;
+  line-height: 25px;
+	display: block;
+	margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+	padding: 20px;
+	margin: 10px;
+}
+
+.start-game:hover {
+	background: darkgreen;
+}
+
+.start-game:active {
+	background: lightgreen;
+}
+
+.game-start {
+	display: none;
+}
