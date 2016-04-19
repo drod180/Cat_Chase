@@ -9,6 +9,7 @@ html, body, img, section, ul, li, h1, h2, h3, h4, h5, p, a, canvas {
 body {
 	width: auto;
 	background: grey;
+  font-family: 'Caveat Brush', cursive;
 }
 .group:after {
 	display: block;
@@ -50,6 +51,7 @@ body {
 
 .game-instructions-modal img {
 	float: left;
+  margin-right: 100px;
 }
 
 .game-instructions-modal a:target {
@@ -78,7 +80,7 @@ body {
 	font-size: 18px;
 	line-height: 32px;
 	font-weight: bold;
-	margin: 20px 75px;
+	margin: 10px 75px;
 }
 
 .start-game {
