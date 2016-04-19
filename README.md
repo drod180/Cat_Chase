@@ -48,9 +48,7 @@ MovingObject.prototype.move = function (timeDelta, mousePos, center) {
 	var moveVel = Util.dirBetween(this.sprite.pos, center);
 	_updateVelocity.call(this, moveVel, MovingObject.TURN_RADIUS);
 
-	var velocityScale = timeDelta /
-											NORMAL_FRAME_TIME_DELTA *
-											MovingObject.DOG_SPEED,
+	var velocityScale = timeDelta / NORMAL_FRAME_TIME_DELTA * MovingObject.DOG_SPEED,
 			playerShift = _getPlayerShift(mousePos, center);
   _updatePosition.call(this, this.vel, velocityScale, playerShift);
 };
