@@ -1,11 +1,48 @@
 <html>
   <head>
     <title>Cat Chase</title>
+    <link href='https://fonts.googleapis.com/css?family=Caveat+Brush' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="./css/chase.css">
+		<link rel="shortcut icon" href="assets/icons/favicon.ico" />
   </head>
 
   <body>
-    <canvas></canvas>
+		<script src="./vendor/dom_node_collection.js"></script>
+    <canvas class="game-canvas"></canvas>
 
     <script type="application/javascript" src="lib/bundle.js"></script>
+
+		<section class="game-instructions-modal">
+			<h2>Cat Chase</h2>
+			<div class="game-instructions group">
+				<div class="game-goal group">
+					<h3>Goal:</h3>
+					<p>
+						The goal of the game is simple. Avoid the
+					</p>
+					<img src="./assets/icons/dog.ico" alt="Dog icon" />
+				</div>
+				<div class="game-how-to group">
+					<h3>How to play:</h3>
+					<p>
+						You play as the
+					</p>
+					<img src="./assets/icons/cat.ico" alt="Cat icon" />
+					<p>
+						The cat will run towards the cursor.
+					</p>
+					<p>
+						Move the cursor further from the cat to run faster.
+					</p>
+				</div>
+			</div>
+			<a href="#start" title="Start" class="start-game">Start Game!</a>
+			<a  href='https://github.com/drod180/Cat_Chase' class="bottom-icons" >
+          <img  src='./assets/icons/github_icon.png' alt='github repo'  /> Github
+      </a>
+      <a href='http://www.drodriguez.io/' class="bottom-icons" >
+        <img  src='./assets/icons/home_icon.png' alt='my portfolio site' /> Portfolio
+      </a>
+		</section>
   </body>
 </html>
