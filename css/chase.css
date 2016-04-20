@@ -34,7 +34,7 @@ body {
 	height: 400px;
 	padding: 30px;
 	border-radius: 20px;
-	box-shadow: 5px 5px 5px grey;
+	box-shadow: 5px 5px 5px black;
   z-index: 99999;
   -webkit-transition: opacity 400ms ease-in;
   -moz-transition: opacity 400ms ease-in;
