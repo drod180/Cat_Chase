@@ -1,6 +1,6 @@
 # Cat Chase
 
-Cat Chase is a avoider style browser game built with HTML5 and Canvas. The basic controls are to use move your mouse around the screen and the cat will always run towards it. However, the dogs are always running at you so you need to change directions often in order to avoid them.
+Cat Chase is an avoider style browser game built with HTML5 and Canvas. The basic controls are to use move your mouse around the screen and the cat will always run towards it. However, the dogs are always running at you so you need to change directions often in order to avoid them.
 
 Dodge some dogs at [Cat Chase](http://www.drodriguez.io/cat_chase/)
 
