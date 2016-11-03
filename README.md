@@ -19,7 +19,7 @@ Dodge some dogs at [Cat Chase](http://www.drodriguez.io/cat_chase/)
 ###Technical Details:
 * Cat Chase use HTML5 and Canvas in order to render images on the webpage. In order to update the page a game view class starts by calling an animate function which calls itself recursively.
 
-```
+```javascript
 GameView.prototype.animate = function(time){
 	var timeDelta = time - this.lastTime;
 
@@ -42,7 +42,7 @@ GameView.prototype.start = function () {
 
 * Cat Chase implements a game design in which you play as a character that never actually moves. However, your movement is implied through careful [background](./lib/background.js) manipulation. By scrolling the background in this way, a small image is able to appear to be infinite as well as providing visual feedback of character movement. Working off this same idea of a centered character, the dogs also need to be affected by the cat's "movements". As a result the dogs needed a movement algorithm which took into consideration where the cat was headed along with their current trajectory.
 
-```
+```javascript
 var NORMAL_FRAME_TIME_DELTA = 1000/60;
 MovingObject.prototype.move = function (timeDelta, mousePos, center) {
 	var moveVel = Util.dirBetween(this.sprite.pos, center);
